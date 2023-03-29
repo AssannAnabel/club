@@ -1,0 +1,92 @@
+[
+  {
+    "nombre": "ana",
+    "apellido": "assann",
+    "fechaNacimiento": "10/4/1985",
+    "documento": 31576362,
+    "telefono": 1156641816,
+    "miembroDesde": "29/3/2023",
+    "deporte": "hockey"
+  },
+  {
+    "nombre": "fabricio",
+    "apellido": "cordoba",
+    "fechaNacimiento": "24/4/1991",
+    "documento": 34565789,
+    "telefono": 2292564789,
+    "miembroDesde": "29/3/2023",
+    "deporte": "futbol"
+  },
+  {
+    "nombre": "santiago",
+    "apellido": "garda",
+    "fechaNacimiento": "11/10/1996",
+    "documento": 367875438,
+    "telefono": 228167543,
+    "miembroDesde": "29/3/2023",
+    "deporte": "natacion"
+  },
+  {
+    "nombre": "pablo",
+    "apellido": "perez",
+    "fechaNacimiento": "30/11/1970",
+    "documento": 25876543,
+    "telefono": 1145672345,
+    "miembroDesde": "29/3/2023",
+    "deporte": "handball"
+  },
+  {
+    "nombre": "silvia",
+    "apellido": "morales",
+    "fechaNacimiento": "5/12/1978",
+    "documento": 22456435,
+    "telefono": 2281456798,
+    "miembroDesde": "29/3/2023",
+    "deporte": "natacion"
+  },
+  {
+    "nombre": "mercedes",
+    "apellido": "morales",
+    "fechaNacimiento": "22/4/1985",
+    "documento": 31456992,
+    "telefono": 1130452890,
+    "miembroDesde": "29/3/2023",
+    "deporte": "voley"
+  },
+  {
+    "nombre": "lucia",
+    "apellido": "velazquez",
+    "fechaNacimiento": "1/9/1984",
+    "documento": 3056123456,
+    "telefono": 1178345623,
+    "miembroDesde": "29/3/2023",
+    "deporte": "basket"
+  },
+  {
+    "nombre": "milagros",
+    "apellido": "herrera",
+    "fechaNacimiento": "15/1/2000",
+    "documento": 46784123,
+    "telefono": 2281456327,
+    "miembroDesde": "29/3/2023",
+    "deporte": "handball"
+  },
+  {
+    "nombre": "federico",
+    "apellido": "cabral",
+    "fechaNacimiento": "5/1/1981",
+    "documento": 28564345,
+    "telefono": 1167895476,
+    "miembroDesde": "29/3/2023",
+    "deporte": "futbol"
+  },
+  {
+    "nombre": "lisandro",
+    "apellido": "fonteiriz",
+    "fechaNacimiento": "27/8/2004",
+    "documento": 46006789,
+    "telefono": 1187982334,
+    "miembroDesde": "29/3/2023",
+    "deporte": "basket"
+  }
+]
