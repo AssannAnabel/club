@@ -4,9 +4,7 @@ import { Jugador } from "./Jugador"
 import { Deporte } from './Deportes'
 
 export default class GestorClub{
-   constructor(){
-
-   }
+   
    data(){ return JSON.parse(fs.readFileSync('./socio.json'))}
 
    setagregarSocio(){
@@ -23,14 +21,14 @@ export default class GestorClub{
     fs.writeFileSync('./socio.json',JSON.stringify(socios,null,2));
    }
     getbuscarNombre(nombre:string){
-        let nombreSocio=this.data().find((persona:{nombre:string})=>persona.nombre===nombre)
+        let nombreSocio=this.data().filter((persona:{nombre:string})=>persona.nombre===nombre)
         console.log(nombreSocio)
         return nombreSocio;
     }
     
     
     getbuscarDeporte(deporte:string){
-        let deporteSocio=this.data().find((persona:{deporte:string})=>persona.deporte===deporte)
+        let deporteSocio=this.data().filter((persona:{deporte:string})=>persona.deporte===deporte)
         console.log(deporteSocio)
         return deporteSocio
     }
@@ -47,7 +45,7 @@ export default class GestorClub{
     }
 
     getbuscarApellido(apellido:string){
-        let apellidoSocio=this.data().find((persona:{apellido:string})=>persona.apellido===apellido)
+        let apellidoSocio=this.data().filter((persona:{apellido:string})=>persona.apellido===apellido)
         console.log(apellidoSocio);
         return apellidoSocio;
     }
