@@ -49,4 +49,16 @@ export default class GestorClub{
         console.log(apellidoSocio);
         return apellidoSocio;
     }
+    setEliminarSocio (documento:number){
+        let socios= this.data();
+        let eliminarSocio = socios.findIndex((socios:{documento:number}) => socios.documento === documento);
+        if (eliminarSocio >= 0) {
+          socios.splice(eliminarSocio, 1);
+          console.log("El socio ", documento, "se dio de baja");
+          fs.writeFileSync("./socio.json", JSON.stringify(socios));
+          console.log(this.data());
+        } else {
+          console.log("el socio" , documento, "no se pudo dar de baja");
+}
+    }
 }

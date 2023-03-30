@@ -1,4 +1,4 @@
-
+//ejemplo!
 enum StringEnum {
     Small = 'S',
     Medium = 'M',
